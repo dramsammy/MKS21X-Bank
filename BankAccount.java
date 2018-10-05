@@ -3,7 +3,7 @@ public class BankAccount{
   private double balance;
   private String password;
 /*Sole constructor requires all field's values*/
-  public BankAccount( int accountID, double balance, String password){
+  public BankAccount(double balance, int accountID ,String password){
     this.balance = balance;
     this.accountID = accountID;
     this.password = password;
